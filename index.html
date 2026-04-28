@@ -1,117 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calvin Mbaula</title>
-        <style>
-            body{
-                background-color: black;
-                color: white;
-                margin-left: 0;
-               
-                height:100%;
-                
-
-                /*background-color: rgb(14, 126, 83); */
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            header{
-                height: 300px;
-                margin: 0 0 0 0;
-                background-image: url("Images/background2.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                
-                color:white
-                
-            }
-            .links{
-                display: inline;
-                flex-direction: reverse;
-            }
-            /*turns the 'Hello' to a sky blue color*/
-            #intro{
-                color: skyblue;
-            }
-            fieldset ul li{
-                
-                list-style-type: none;
-                display: inline-block;
-                margin-right: 100px;
-            }
-            fieldset{
-                border-radius: 25px;
-            }
-            
-            
-             footer {
-                color:black;
-                background-color: white;
-                
-             }
-             footer ul li{
-                list-style-type: none;
-                display: inline;
-                margin-right: 80px;
-             }
-             .contact{
-                height: 20px;
-             }
-        
-            
-        </style>
-    </head>
-    <body>
-        
-        <header>
-            <nav id="nav">
-               <ul class="links">
-                <li><a href="">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#con">Contact</a></li>
-               </ul> 
-                
-                
-                
-                
-                
-                
-            </nav>
-        <h1>My Portifolio</h1>
-        </header>
-        
-        <h1> <span id="intro">Hello!</span> My Name is Calvin Mbaula and this is my portifolio project</h1>
-        <div>
-            <h2 id="about">About me</h2>
-            <p>I am currently a computer student doing my Bachelor's degree in Computer Systems and Security.</p> 
-           
-        </div>
-        
-            <fieldset align="center">
-                <legend>Skills and qualifications</legend>
-            
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
             <ul>
-                <li>Java programming <br>
-                    <img src="Icons8/java.png" alt="java symbol"></li>
-                <li>C++ programming
-                    <img src="Icons8/" alt=""></li>
-                <li>Front end development(html and CSS) <br>
-                    <img src="Icons8/html.png" alt="html symbol">
-                    <img src="Icons8/css.png" alt=""></li>
+                <li class="nav"><a href="">Home</a></li>
+                <li class="nav"><a href="#introduction">About</a></li>
+                <li class="nav"><a href="#contacts">Contact</a></li>
             </ul>
-                
-            </fieldset>
-        
-        <footer>
-           <h3 id="con" style="text-align: center;">Contact me</h3> 
-           <p>You may contact me on the following platforms</p>
-           <ul>
-            <li><img class="contact" src="Icons8/phone.png" alt="">+265 885 6936 93</li>
-            <li><img class="contact" src="Icons8/mail.png" alt="">calvinlouis@gmail.com</li>
-            <li><img class="contact" src="Icons8/instagram.png" alt="">@calvinlouis31</li>
-            <li><img class="contact" src="Icons8/facebook.png" alt="">calvin mbaula</li>
-           </ul>
-        </footer>
-        
-        
-    </body>
+        </nav>
+        <h1>Sumptous Scans</h1>
+    </header>
+    <section class="container" id="introduction">
+        <div class="grid-box">Hello and welcome. This an all you need to know page about the one and only Calvin Mbaula.
+            That's me if you are wondering by the way. A college student persuing a Bachelor's Degree 
+            in Computer Systems and Security. 
+            A program that brings to focus the basics of computer studies  as well as demands a major 
+            comprehension of not just computer programming languages that are used in development of 
+            applications but also the security involved with them. 
+            So far as of the Second Year I have managed to learn many different things and developed 
+            skills that make me compentent enough in the field of development.
+        </div>
+        <div class="grid-box"><img src="/Projects/Portifolio/Images/Calvin.jpg" alt="" ></div>
+        <div class="grid-box">
+            <h2>Skills and qualifications</h2>
+            <ul>
+                <li>Front end development</li>
+                <li>Java programming</li>
+                <li>Graphic design</li>
+                <li>Video editing</li>
+
+            </ul>
+        </div>
+    </section>
+    <footer id="contacts">
+        <fieldset>
+            <legend><h2>Contact details</h2></legend>
+        <ul>
+            <li><img src="/Projects/Portifolio/Icons8/mail.png" alt="">Email calvinlouis360@gmail.com</li>
+            <li><img src="/Projects/Portifolio/Icons8/phone.png" alt="">Phone +265994552589/ +265885693693</li>
+            <li><img src="/Projects/Portifolio/Icons8/instagram.png" alt="">instagram @calvinlouis31</li>
+        </ul>
+        </fieldset>
+    </footer>
+    
+</body>
 </html>
